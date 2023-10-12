@@ -1,0 +1,41 @@
+/* home */
+.img-darker-overlay {
+  filter: brightness(0.5);
+}
+.text-container {
+  position: absolute;
+  top: 3vw;
+  right: 10vw;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  color: white;
+}
+.home-desc-text {
+  width: 70vw;
+}
+.home-desc-text > p,h1 {
+  font-size: 15px;
+  margin: 0;
+  text-align: end;
+}
+.text-container > p:nth-child(1) {
+  color: rgb(194, 8, 8);
+  margin: 0;
+}
+
+/* home */
+
+h1 {
+  font-size: 65px;
+  padding: 0;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h1,h2,h3,h4 {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+}

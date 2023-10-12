@@ -1,1 +1,2 @@
-<app-header></app-header>
+<app-header (selectedNavPage)="onNavigate($event)"></app-header>
+<app-home *ngIf="currentPage === 'home'"></app-home>
